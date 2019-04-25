@@ -23,8 +23,9 @@ def title(*args, **kwargs):
     print(*args, **kwargs)
 
 def pushapp():
+    #aws --profile tristengeven s3 sync C:/Users/03EvenT14/Documents/repos/hellolambda/site/_site s3://hellolambda.tristeneven.com --acl public-read --delete
     title('Build jekyll')
-    cmd = ['jekyll', 'build']
+    cmd = ['bundle', 'exec', 'jekyll', 'build']
     run(cmd, cwd=ROOTP/'site')
 
     title('Pushing static website to S3')

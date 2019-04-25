@@ -1,7 +1,7 @@
 from pathlib import Path
 
 FLASK_PORT = 5285
-ROOT_API_AWS = 'https://s7gerv9bs2.execute-api.us-east-1.amazonaws.com/dev'
+ROOT_API_AWS = 'https://e84nb9yy7f.execute-api.us-east-1.amazonaws.com/dev'
 ROOT_API_FLASK = f'http://localhost:{FLASK_PORT}'
 LOCAL_AWS_PROFILE = 'tristengeven'
 AWS_REGION = 'us-east-1'

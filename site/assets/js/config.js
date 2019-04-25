@@ -4,7 +4,7 @@
  */
 
  const HLCONFIG = {
-  ROOT_API_AWS : 'https://xxx.execute-api.us-west-2.amazonaws.com/dev',
+  ROOT_API_AWS : 'https://s7gerv9bs2.execute-api.us-east-1.amazonaws.com/dev',
   FLASK_PORT: 5285
  }
 
